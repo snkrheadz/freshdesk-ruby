@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "freshdesk-ruby"
+gem "freshdesk"
 ```
 
 And then execute:
@@ -31,7 +31,7 @@ It supports following:
 Currently I needed this library to support Tickets APIs to use this api client on a project. I am gonna update with other API supports later. And collaborators are welcome :)
 
 ```ruby
-require "freshdesk-ruby"
+require "freshdesk"
 
 Freshdesk.domain = "replace with your domain"
 Freshdesk.user_name_or_api_key = "replace with your api key"
