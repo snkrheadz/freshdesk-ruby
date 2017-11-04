@@ -27,6 +27,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "bundler", "~> 1.14"
   s.add_development_dependency "rake", "~> 10.0"
   s.add_development_dependency "rspec", "~> 3.0"
-  s.add_development_dependency "json", "~> 2.0.3"
-  s.add_development_dependency "rest-client", "~> 2.0.1"
+  s.add_runtime_dependency "json", "~> 2.0.3"
+  s.add_runtime_dependency "rest-client", "~> 2.0.1"
 end
