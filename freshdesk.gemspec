@@ -7,8 +7,8 @@ require 'freshdesk/version'
 Gem::Specification.new do |s|
   s.name          = "freshdesk-ruby"
   s.version       = Freshdesk::VERSION
-  s.authors       = ["Akira Narita"]
-  s.email         = ["aki.d.sc@gmail.com"]
+  s.authors       = ["Akira Narita", "Graham Novak"]
+  s.email         = ["aki.d.sc@gmail.com", "novak.graham@gmail.com"]
   s.required_ruby_version     = ">= 2.2.2"
   s.required_rubygems_version = ">= 1.8.11"
 
