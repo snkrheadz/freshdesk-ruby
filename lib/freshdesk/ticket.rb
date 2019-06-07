@@ -44,6 +44,10 @@ module Freshdesk
       def list_all_satisfaction_ratings_of_a_ticket(ticket_id:)
         new("/tickets/#{ticket_id}/satisfaction_ratings").resource.get
       end
+
+      def search_tickets(query: "")
+        new("/search/tickets#{query}").resource.get
+      end
     end
   end
 end
