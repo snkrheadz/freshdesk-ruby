@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "freshdesk"
+gem "freshdesk-ruby"
 ```
 
 And then execute:
