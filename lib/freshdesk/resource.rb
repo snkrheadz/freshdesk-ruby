@@ -30,7 +30,11 @@ module Freshdesk
     end
 
     def post
-      @resource.post(json_payload, content_type: "application/json")
+      attachments = @params.keys.map(&:to_s).include?('attachments')
+      options = attachments ? {} : { content_type: 'application/json' }
+      payload = attachments ? @params : json_payload
+
+      @resource.post(payload, options)
     rescue RestClient::Exception => e
       raise e, api_error_message(e)
     end
